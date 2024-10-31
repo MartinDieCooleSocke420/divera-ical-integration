@@ -37,7 +37,7 @@ Follow these steps to set up and run the application on your local machine.
    ```
    DIVERA_ACCESS_KEY=your_actual_access_key_here
    ```
-   > **Note**: For an example of the `.env` file, see this blurred sample image: [`.env` Blurred Image](https://i.imgur.com/nDsjWqn.png)
+   > **Note**: For an example of the `.env` file, see this blurred sample image: ![`.env` Blurred Image](https://i.imgur.com/nDsjWqn.png)
 
 ### Running the Application
 
