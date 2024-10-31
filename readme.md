@@ -2,13 +2,6 @@
 
 Welcome! This application allows you to import the calendar from the Divera app as a `.ics` file, making it easy to integrate Divera events with your calendar applications.
 
-## 📍 Current Route for Calendar Integration
-
-You can access the Divera calendar as an `.ics` file at:
-```
-http://localhost:5000/DiveraCalendar.ics
-```
-
 ## 🚀 Getting Started
 
 Follow these steps to set up and run the application on your local machine.
@@ -37,7 +30,9 @@ Follow these steps to set up and run the application on your local machine.
    ```
    DIVERA_ACCESS_KEY=your_actual_access_key_here
    ```
-   > **Note**: For an example of the `.env` file, see this blurred sample image: ![`.env` Blurred Image](https://i.imgur.com/nDsjWqn.png)
+   > **Note**: For an example of the `.env` file, see this blurred sample image:
+
+![`.env` Blurred Image](https://i.imgur.com/nDsjWqn.png)
 
 ### Running the Application
 
