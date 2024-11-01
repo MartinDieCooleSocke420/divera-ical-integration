@@ -8,7 +8,7 @@ You can access the Divera calendar as an `.ics` file at:
 ```
 http://SERVERIP:1312/DiveraCalendar.ics
 ```
-=======
+
 Directly linking to an .ics file is essential for automated calendar updates because most calendar apps, like Google Calendar, rely on a URL to continuously refresh event data. When the file is downloadable only, this automation breaks, requiring manual downloads and imports to reflect new changes. By providing a persistent URL to an .ics file, calendar apps can periodically access this link, keeping the calendar in sync without user intervention, which is crucial for live updates.
 
 ## 🚀 Getting Started
