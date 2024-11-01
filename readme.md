@@ -17,8 +17,7 @@ Follow these steps to set up and run the application on your local machine.
 
 ### Prerequisites
 
-- **Python 3.x** installed
-- **Pip** package manager for Python
+- **Docker** 
 
 ### Installation
 
@@ -27,14 +26,7 @@ Follow these steps to set up and run the application on your local machine.
    git clone https://github.com/MartinDieCooleSocke420/divera-icalendar-api.git
    cd divera-icalendar-api
    ```
-
-2. **Install Requirements**
-   Install the required dependencies with:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Environment Setup**
+2. **Environment Setup**
    Create a `.env` file in the project root and add your Divera access key:
    ```
    DIVERA_ACCESS_KEY=your_actual_access_key_here
@@ -43,12 +35,17 @@ Follow these steps to set up and run the application on your local machine.
 
 ![`.env` Blurred Image](https://i.imgur.com/nDsjWqn.png)
 
-### Running the Application
+3. **Build Container**
+   Install the required dependencies with:
+   ```bash
+   docker build -t divera-ical .
+   ```
 
-To start the Flask server, run:
-```bash
-python main.py
-```
+4. **Run Container**
+   Run the container with port 1312 exposed:
+   ```bash
+   docker run -p 1312:1312 divera-ical
+   ```
 
 ## 🤝 Contributing
 
