@@ -23,8 +23,8 @@ Follow these steps to set up and run the application on your local machine.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/MartinDieCooleSocke420/divera-icalendar-api.git
-   cd divera-icalendar-api
+   git clone https://github.com/MartinDieCooleSocke420/divera-ical-integration.git
+   cd divera-ical-integration
    ```
 2. **Environment Setup**
    Create a `.env` file in the project root and add your Divera access key:
