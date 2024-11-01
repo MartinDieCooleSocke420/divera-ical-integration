@@ -6,7 +6,7 @@ Welcome! This application allows you to import the calendar from the Divera app 
 
 You can access the Divera calendar as an `.ics` file at:
 ```
-http://localhost:5000/DiveraCalendar.ics
+http://SERVERIP:1312/DiveraCalendar.ics
 ```
 
 ## 🚀 Getting Started
@@ -44,15 +44,6 @@ Follow these steps to set up and run the application on your local machine.
 To start the Flask server, run:
 ```bash
 python main.py
-```
-
-The application will be available at `http://localhost`.
-
-## 📅 Accessing the Calendar
-
-Once the app is running, you can fetch the `.ics` file by visiting:
-```
-http://localhost/DiveraCalendar.ics
 ```
 
 ## 🤝 Contributing
